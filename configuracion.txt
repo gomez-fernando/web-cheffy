@@ -1,0 +1,4 @@
+# realizar los siguientes cambios
+configurar:
+  config/db.php,
+  config/parameters.php,
