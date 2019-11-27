@@ -1030,7 +1030,7 @@ class Parsedown
 
     protected $InlineTypes = array(
         '"' => array('SpecialCharacter'),
-        '!' => array('Component'),
+        '!' => array('Image'),
         '&' => array('SpecialCharacter'),
         '*' => array('Emphasis'),
         ':' => array('Url'),
@@ -1493,7 +1493,7 @@ class Parsedown
         {
             $markup .= '>';
 
-            if (!isset($Element['nonNestables']))
+            if (!isset($Element['nonNestables'])) 
             {
                 $Element['nonNestables'] = array();
             }
