@@ -19,8 +19,8 @@
 	</div>
 
 	<nav class="menu">
-		<a href="#">Nosotros</a>
-		<a href="#">Servicios</a>
+        <a href="#">{{ __('lang.about_us') }}</a>
+		<a href="#">{{ __('lang.services') }}</a>
 		<a href="#">Contacto</a>
 	</nav>
 
