@@ -5,20 +5,11 @@
 }
 
 :root {
-	/* --purple-dark: #170312;
-	--purple-medium: #33032d;
-    --purple-light: #531253;
+    --purple-dark: #f18242;
+    --purple-medium: rgb(245, 79, 19);
+    --purple-light: #ff4500;
     --gray-light: #eaeaea;
-		--white: #f4fffd; */
-
-		/* --purple-dark: orangered; */
-		--purple-dark: #f18242;
-		--purple-medium: rgb(245, 79, 19);
-		/* --purple-medium: orangered; */
-			--purple-light: orangered;
-			/* --purple-light: #be7117; */
-			--gray-light: #eaeaea;
-			--white: #f4fffd;
+    --white: #f4fffd;
 }
 
 body {
@@ -28,6 +19,14 @@ body {
 
 p {
 	font-size: 22px;
+}
+
+span.anchor {
+    margin-top: -100px; /* height of nav, in this case 54px */
+    display: block;
+    height: 100px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
 }
 
 /* ------------------------- */

@@ -22,5 +22,6 @@ return [
     'team_made_up' => 'Nuestro equipo está formado por personas entusiastas de la gastronomía, del buen servicio y de la tecnología',
     'commitment' => 'Un compromiso de servicio',
     'where_are_we' => '¿Dónde estamos?',
+    'contact_form' => 'Contacto',
 
 ];

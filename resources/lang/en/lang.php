@@ -22,5 +22,6 @@ return [
     'team_made_up' => 'Our team is made up of people who are enthusiastic about gastronomy, good service and technology',
     'commitment' => 'A service commitment',
     'where_are_we' => 'Where are we?',
+    'contact_form' => 'Contact us',
 
 ];
