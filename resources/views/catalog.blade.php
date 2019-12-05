@@ -12,11 +12,11 @@
 	<link rel="shortout icon" type="image/png" href="favicon.png">
 </head>
 <body>
-	<div class="contenido-header">
+	{{-- <div class="contenido-header">
 		<div class="fondo" id="fondo">
 			<h1 class="texto">Cheffy</h1>
 		</div>
-	</div>
+	</div> --}}
 
 	<nav class="menu">
         <a href="#about_us">{{ __('lang.about_us') }}</a>
@@ -26,15 +26,15 @@
 	</nav>
 
 	<main class="container">
-        <span class="anchor" id="about_us"></span>
+        {{-- <span class="anchor" id="about_us"></span>
         <div class="row nosotros justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="subtitulo"><span>{{ __('lang.who_are_we') }}</span></h2>
                 <h3 class="titulo">{{ __('lang.our_passion') }}</h3>
                 <p>{{ __('lang.text_1') }}</p>
-                <a href="{{ route('catalog') }}" class="enlace">{{ __('lang.discover') }}</a>
+                <a href="#" class="enlace">{{ __('lang.discover') }}</a>
             </div>
-        </div>
+        </div> --}}
 
         <span class="anchor" id="services"></span>
 		<div class="row productos">
@@ -42,11 +42,11 @@
 				<h2 class="subtitulo"><span>{{ __('lang.we_provide') }}</span></h2>
 				<p class="titulo">{{ __('lang.our_products') }}</p>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit veniam saepe cum aspernatur neque odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt perferendis. Lorem ipsum dolor sit amet consectetur.</p>
-			</article>
+            </article>
 
-			<div class="col-12">
-				<div class="row justify-content-center">
-					<article class="col-6 col-lg-3 py-1">
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center">
+                    <article class="col-12   py-1">
 						<figure class="producto">
 							<img src="img/products/pr-1.jpg" class="img-fluid" alt="">
 							<figcaption class="overlay">
@@ -54,8 +54,12 @@
 							</figcaption>
 						</figure>
 					</article>
+                </div>
+            </div>
 
-					<article class="col-6 col-lg-3 py-1">
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center">
+					<article class="col-12 py-1">
 						<figure class="producto">
 							<img src="img/products/pr-2.jpg" class="img-fluid" alt="">
 							<figcaption class="overlay">
@@ -63,8 +67,12 @@
 							</figcaption>
 						</figure>
 					</article>
+                </div>
+            </div>
 
-					<article class="col-6 col-lg-3 py-1">
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center">
+					<article class="col-12 py-1">
 						<figure class="producto">
 							<img src="img/products/pr-3.jpg" class="img-fluid" alt="">
 							<figcaption class="overlay">
@@ -72,8 +80,12 @@
 							</figcaption>
 						</figure>
 					</article>
+                </div>
+            </div>
 
-					<article class="col-6 col-lg-3 py-1">
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center">
+					<article class="col-12 py-1">
 						<figure class="producto">
 							<img src="img/products/pr-4.jpg" class="img-fluid" alt="">
 							<figcaption class="overlay">
@@ -81,13 +93,38 @@
 							</figcaption>
 						</figure>
 					</article>
-                    <a class="d-block btn-productos" href="{{ route('catalog') }}" class="enlace">{{ __('lang.all_products') }}</a>
+                </div>
+            </div>
+
+			<div class="col-md-6 col-12">
+				<div class="row justify-content-center">
+
+
+					<article class="col-6 col-lg-3 py-1">
+						<figure class="producto">
+
+							<figcaption class="overlay">
+								<p class="overlay-texto">Nombre del producto</p>
+							</figcaption>
+						</figure>
+					</article>
+
+					<article class="col-6 col-lg-3 py-1">
+						<figure class="producto">
+
+							<figcaption class="overlay">
+								<p class="overlay-texto">Nombre del producto</p>
+							</figcaption>
+						</figure>
+					</article>
+
+					{{-- <button class="d-block btn-productos">{{ __('lang.all_products') }}</button> --}}
 				</div>
 			</div>
 		</div>
 	</main>
 
-	<div class="separador text-center text-white">
+	{{-- <div class="separador text-center text-white">
 		<p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eligendi</q></p>
 	</div>
 
@@ -133,11 +170,11 @@
 				<img src="img/display/dp-cheers.jpg" alt="">
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 	<div class="container-fluid" id="">
 
-        <span class="anchor" id="contact_form"></span>
+        {{-- <span class="anchor" id="contact_form"></span>
         <section class="contacto row justify-content-center">
             <div class="col-12 col-md-9 text-center">
                     <h2 class="subtitulo"><span>{{ __('lang.contact_form') }}</span></h2>
@@ -174,7 +211,7 @@
                     <img src="img/icons/inbox-8-64.png" alt="">&nbsp; info@cheffy.com
                 </p>
             </div>
-		</section>
+		</section> --}}
 
 		<footer class="row justify-content-center redes-sociales">
 			<div class="col-auto">
