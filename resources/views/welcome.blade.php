@@ -142,8 +142,27 @@
             <div class="col-12 col-md-9 text-center">
                     <h2 class="subtitulo"><span>{{ __('lang.contact_form') }}</span></h2>
             </div>
-            <div class="col-12 col-md-9 text-center">
-                    aquí irá el formulario de contacto
+            <div class="col-sm-9 col-12 col-md-4 text-center">
+							<form action="" method="get">
+							  <div class="form-group">
+							    <label for="name">Nombre</label>
+							    <input type="text" class="form-control" id="name" aria-describedby="your name" placeholder="">
+							  </div>
+								<div class="form-group">
+							    <label for="surname">Apellido</label>
+							    <input type="text" class="form-control" id="surname" aria-describedby="your surname" placeholder="">
+							  </div>
+							  <div class="form-group">
+							    <label for="email">Email</label>
+							    <input type="email" class="form-control" id="email" placeholder="">
+									<small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu mail con nadie más</small>
+							  </div>
+								<div class="form-group">
+								 <label for="text">Tu mensaje</label>
+								 <textarea name="text" id="text" class="form-control" rows="5" cols="80"></textarea>
+							 </div>
+							  <button type="submit" class="submit-form">Enviar</button>
+							</form>
 
             </div>
         </section>
@@ -165,7 +184,7 @@
 			<div class="w-100 mb-4"></div>
 			<div>
 				<p class="border-bottom border-top">
-					<img src="img/icons/mobile-phone-8-64.png" alt="">653 891 672
+					<img src="img/icons/mobile-phone-8-64.png" alt="">+34 653 891 672
 				</p>
             </div>
 			<div class="w-100 mb-4"></div>
@@ -178,9 +197,9 @@
 
 		<footer class="row justify-content-center redes-sociales">
 			<div class="col-auto">
-				<a href="#"><img src="img/icons/facebook.png" alt=""></a>
-				<a href="#"><img src="img/icons/twitter.png" alt=""></a>
-				<a href="#"><img src="img/icons/instagram-new.png" alt=""></a>
+				<a href="https://sites.google.com/fp.uoc.edu/grupo-tourify/presentaci%C3%B3n-del-proyecto" target="_blank"><img src="img/icons/google-plus-3-96.png" alt=""></a>
+				<a href="https://www.youtube.com/watch?v=-Fyn83okjg8&feature=youtu.be" target="_blank"><img src="img/icons/youtube-3-96.png" alt=""></a>
+				<a href="https://github.com/FernandoDavidGomezOrtega/web-cheffy" target="_blank"><img src="img/icons/github-8-96.png" alt=""></a>
 			</div>
 		</footer>
 	</div>

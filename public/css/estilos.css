@@ -222,6 +222,22 @@ span.anchor {
 	color: var(--purple-light);
 }
 
+.submit-form {
+	background-color: var(--purple-light);
+	color: #fff;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+	border: 2px solid transparent;
+	transition: .3s ease;
+}
+
+.submit-form:hover {
+	background-color: transparent;
+	border: 2px solid var(--purple-light);
+	color: var(--purple-light);
+}
+
 /* ------------------------- */
 /* Separador */
 /* ------------------------- */
@@ -277,7 +293,7 @@ span.anchor {
 
 .redes-sociales img {
 	padding: 5px;
-	border-radius: 100%;
+	border-radius: 20%;
 	width: 50px;
 	transition: .3s ease all;
 }
