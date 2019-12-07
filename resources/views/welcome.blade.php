@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,11 +18,25 @@
 		</div>
 	</div>
 
-	<nav class="menu">
+	<nav class="menu" id="menu">
         <a href="#about_us">{{ __('lang.about_us') }}</a>
 		<a href="#services">{{ __('lang.services') }}</a>
 		<a href="#contact_form">{{ __('lang.contact') }}</a>
-		<a href="#where_are_we">{{ __('lang.where_are_we') }}</a>
+        <a href="#where_are_we">{{ __('lang.where_are_we') }}</a>
+        <a class="nav-link" href="locale/en"  style="padding: 10px"><img src="{{ asset('img/icons/uk_flag.png') }}" alt="" class="px-0"></a>
+        <a class="nav-link" href="locale/es" style="padding: 10px"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
+        <div class="collapse navbar-collapse mr-0" id="navbarSupportedContent">
+            <div class="form-inline my-2 my-lg-0 ml-auto ">
+                <ul class="navbar-nav mr-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="locale/en"><img src="{{ asset('img/icons/uk_flag.png') }}" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="locale/es"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 	</nav>
 
 	<main class="container">

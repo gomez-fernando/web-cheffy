@@ -12,29 +12,28 @@
 	<link rel="shortout icon" type="image/png" href="favicon.png">
 </head>
 <body>
-	{{-- <div class="contenido-header">
-		<div class="fondo" id="fondo">
-			<h1 class="texto">Cheffy</h1>
-		</div>
-	</div> --}}
-
-	<nav class="menu">
-        <a href="#about_us">{{ __('lang.about_us') }}</a>
-		<a href="#services">{{ __('lang.services') }}</a>
-		<a href="#contact_form">{{ __('lang.contact') }}</a>
-		<a href="#where_are_we">{{ __('lang.where_are_we') }}</a>
-	</nav>
+<nav class="menu" id="menu">
+    <a href="#about_us">{{ __('lang.about_us') }}</a>
+    <a href="#services">{{ __('lang.services') }}</a>
+    <a href="#contact_form">{{ __('lang.contact') }}</a>
+    <a href="#where_are_we">{{ __('lang.where_are_we') }}</a>
+    <a class="nav-link" href="locale/en"  style="padding: 10px"><img src="{{ asset('img/icons/uk_flag.png') }}" alt="" class="px-0"></a>
+    <a class="nav-link" href="locale/es" style="padding: 10px"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
+    <div class="collapse navbar-collapse mr-0" id="navbarSupportedContent">
+        <div class="form-inline my-2 my-lg-0 ml-auto ">
+            <ul class="navbar-nav mr-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="locale/en"><img src="{{ asset('img/icons/uk_flag.png') }}" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="locale/es"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 	<main class="container">
-        {{-- <span class="anchor" id="about_us"></span>
-        <div class="row nosotros justify-content-center">
-            <div class="col-12 text-center">
-                <h2 class="subtitulo"><span>{{ __('lang.who_are_we') }}</span></h2>
-                <h3 class="titulo">{{ __('lang.our_passion') }}</h3>
-                <p>{{ __('lang.text_1') }}</p>
-                <a href="#" class="enlace">{{ __('lang.discover') }}</a>
-            </div>
-        </div> --}}
 
         <span class="anchor" id="services"></span>
 		<div class="row productos">
@@ -104,28 +103,8 @@
                 </div>
             </div>
 
-			<!-- <div class="col-md-6 col-12">
-				<div class="row justify-content-center">
-					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Breve descripción........ <br>Ver más</p>
-							</figcaption>
-						</figure>
-					</article>
-
-					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Breve descripción........ <br>Ver más</p>
-							</figcaption>
-						</figure>
-					</article> -->
-
 				</div>
-			</div>
-		</div>
-	</main>
+    </main>
 
 	<div class="container-fluid" id="">
 		<footer class="row justify-content-center redes-sociales">
