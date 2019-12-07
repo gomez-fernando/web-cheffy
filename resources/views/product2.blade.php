@@ -40,7 +40,7 @@
 		<div class="row productos">
 			<article class="col-12 text-center">
 				<h2 class="subtitulo"><span>{{ __('descubre tu próxima experiencia') }}</span></h2>
-				<p class="titulo">{{ __('PRODUCTO 1') }}</p>
+				<p class="titulo">{{ __('PRODUCTO 2') }}</p>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit veniam saepe cum aspernatur neque odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt perferendis. Lorem ipsum dolor sit amet consectetur.</p>
             </article>
 
