@@ -77,7 +77,8 @@ span.anchor {
 	justify-content: center;
 	font-family: 'Noto Serif', serif;
 	font-style: italic;
-	margin-bottom: 60px;
+    margin-bottom: 60px;
+    color: #fff;
 }
 
 .menu a {
@@ -94,6 +95,10 @@ span.anchor {
 .menu a:hover {
 	transform: translateY(18px);
 	background-color: var(--purple-dark);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--gray-light) !important;
 }
 
 /* ------------------------- */

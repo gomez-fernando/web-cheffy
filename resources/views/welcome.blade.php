@@ -60,7 +60,7 @@
 
 
 
-	<nav class="menu" id="menu">
+	{{-- <nav class="menu" id="menu">
         <a href="#about_us">{{ __('lang.about_us') }}</a>
 		<a href="#services">{{ __('lang.services') }}</a>
 		<a href="#contact_form">{{ __('lang.contact') }}</a>
@@ -79,7 +79,7 @@
                 </ul>
             </div>
         </div>
-	</nav>
+	</nav> --}}
 
 	<main class="container">
         <span class="anchor" id="about_us"></span>
