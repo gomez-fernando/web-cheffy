@@ -27,6 +27,11 @@ class HomeController extends Controller
         return view('welcome');
     }
 
+    public function contactForm(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
     public function catalog()
     {
         return view('catalog');

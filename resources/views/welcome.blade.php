@@ -191,7 +191,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid" id="">
+	<div class="container" id="">
 
         <span class="anchor" id="contact_form"></span>
         <section class="contacto row justify-content-center">
@@ -199,23 +199,25 @@
                     <h2 class="subtitulo"><span>{{ __('lang.contact_form') }}</span></h2>
             </div>
             <div class="col-sm-9 col-12 col-md-4 text-center">
-							<form action="" method="get">
+                {{-- // mostramos mensaje --}}
+        @include('includes.message')
+                            <form action="{{ route('contactForm') }}" method="POST" id="contactForm">
+                                @csrf
 							  <div class="form-group">
 							    <label for="name">Nombre</label>
-							    <input type="text" class="form-control" id="name" aria-describedby="your name" placeholder="">
+							    <input type="text" class="form-control" id="name" aria-describedby="your name" placeholder="" required>
 							  </div>
 								<div class="form-group">
 							    <label for="surname">Apellido</label>
-							    <input type="text" class="form-control" id="surname" aria-describedby="your surname" placeholder="">
+							    <input type="text" class="form-control" id="surname" aria-describedby="your surname" placeholder="" required>
 							  </div>
 							  <div class="form-group">
 							    <label for="email">Email</label>
-							    <input type="email" class="form-control" id="email" placeholder="">
-									<small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu mail con nadie más</small>
+							    <input type="email" class="form-control" id="email" placeholder="" required>
 							  </div>
 								<div class="form-group">
 								 <label for="text">Tu mensaje</label>
-								 <textarea name="text" id="text" class="form-control" rows="5" cols="80"></textarea>
+								 <textarea name="text" id="text" class="form-control" rows="5" cols="80" required></textarea>
 							 </div>
 							  <button type="submit" class="submit-form">Enviar</button>
 							</form>
@@ -249,16 +251,116 @@
                     <img src="img/icons/inbox-8-64.png" alt="">&nbsp; info@cheffy.com
                 </p>
             </div>
-		</section>
+        </section>
+    </div>
 
-		<footer class="row justify-content-center redes-sociales">
-			<div class="col-auto">
-				<a href="https://sites.google.com/fp.uoc.edu/grupo-tourify/presentaci%C3%B3n-del-proyecto" target="_blank"><img src="img/icons/google-plus-3-96.png" alt=""></a>
-				<a href="https://www.youtube.com/watch?v=-Fyn83okjg8&feature=youtu.be" target="_blank"><img src="img/icons/youtube-3-96.png" alt=""></a>
-				<a href="https://github.com/FernandoDavidGomezOrtega/web-cheffy" target="_blank"><img src="img/icons/github-8-96.png" alt=""></a>
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4 redes-sociales">
+
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left">
+
+			<!-- Grid row -->
+			<div class="row">
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!-- Grid column -->
+				<div class="col-md-4 mx-auto">
+
+					<!-- Links -->
+					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Sobre nosotros</h5>
+
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Quiénes somos</a>
+						</li>
+						<li>
+							<a href="#!">Trabaja con nosotros</a>
+						</li>
+						<li>
+							<a href="#!">Invierte en Cheffy</a>
+						</li>
+					</ul>
+
+				</div>
+				<!-- Grid column -->
+
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!-- Grid column -->
+				<div class="col-md-4 mx-auto">
+
+					<!-- Links -->
+					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Información importante</h5>
+
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Condiciones generales</a>
+						</li>
+						<li>
+							<a href="#!">Política de privacidad</a>
+						</li>
+						<li>
+							<a href="#!">Preguntas frecuentes</a>
+						</li>
+						<li>
+							<a href="#!">Política de cookies</a>
+                        </li>
+                        <li>
+                            <a href="#!">Atención al cliente</a>
+                        </li>
+					</ul>
+
+				</div>
+				<!-- Grid column -->
+
 			</div>
-		</footer>
-	</div>
+			<!-- Grid row -->
+
+		</div>
+		<!-- Footer Links -->
+
+		<hr>
+
+		<!-- Invierte en Cheffy -->
+		<ul class="list-unstyled list-inline text-center py-2">
+			<li class="list-inline-item">
+				<h5 class="mb-1">Invierte en Cheffy</h5>
+			</li>
+			<li class="list-inline-item">
+				<a href="#!" class="btn btn-danger btn-rounded">Saber más!</a>
+			</li>
+		</ul>
+		<!-- Invierte en Cheffy -->
+
+		<hr>
+
+		<!-- Redes sociales -->
+		<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+						<a class="btn-floating btn-gplus mx-1" href="https://sites.google.com/fp.uoc.edu/grupo-tourify/presentaci%C3%B3n-del-proyecto" target="_blank"><img src="img/icons/google-plus-3-96.png" alt="">
+						</a>
+					</li>
+			<li class="list-inline-item">
+				<a class="btn-floating btn-fb mx-1" href="https://www.youtube.com/watch?v=-Fyn83okjg8&feature=youtu.be" target="_blank">
+						<img src="img/icons/youtube-3-96.png" alt="">
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="btn-floating btn-tw mx-1" href="https://github.com/FernandoDavidGomezOrtega/web-cheffy" target="_blank"><img src="img/icons/github-8-96.png" alt="">
+				</a>
+			</li>
+		</ul>
+		<!-- Redes sociales -->
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© 2018 Copyright: Grupo Tourify - UOC
+		</div>
+		<!-- Copyright -->
+
+	</footer>
 
 
     <script src="js/main.js"></script>

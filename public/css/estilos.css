@@ -307,6 +307,29 @@ span.anchor {
 	transform: scale(1.2);
 }
 
+/* -------------------------
+footer
+------------------------- */
+footer{
+    color: white;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 /* ------------------------- */
 /* Mediaqueries */
 /* ------------------------- */
