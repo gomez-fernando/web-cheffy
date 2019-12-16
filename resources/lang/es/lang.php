@@ -12,7 +12,7 @@ return [
     'services' => 'Servicios',
     'contact' => 'Contacto',
     'who_are_we' => '¿Quiénes somos?',
-    'our_passion' => 'Nuestra pasión por la gastronomçia y el alma de Marebella.',
+    'our_passion' => 'Nuestra pasión por la gastronomía y el alma de Marbella.',
     'text_1' => 'Seguro que muchas veces estando de viaje te has preguntado: ¿Cuál debe ser la comida típica de este lugar? ¿Deben cocinar como nosotros? Y te has conformado con acudir, con cierta incredulidad, al típico restaurante de: “COCINA LOCAL”...',
     'discover' => 'Descubre tu próxima experiencia',
     'we_provide' => 'Lo que ofrecemos',

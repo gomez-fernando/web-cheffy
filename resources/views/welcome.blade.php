@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +7,53 @@
 	<title>Cheffy</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,700i|Open+Sans:400,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 	<link rel="shortout icon" type="image/png" href="favicon.png">
 </head>
 <body>
+
+
+
 	<div class="contenido-header">
 		<div class="fondo" id="fondo">
 			<h1 class="texto">Cheffy</h1>
 		</div>
-	</div>
+    </div>
 
-	<nav class="menu">
-        <a href="#about_us">{{ __('lang.about_us') }}</a>
-		<a href="#services">{{ __('lang.services') }}</a>
-		<a href="#contact_form">{{ __('lang.contact') }}</a>
-		<a href="#where_are_we">{{ __('lang.where_are_we') }}</a>
-	</nav>
+    <nav class="navbar navbar-expand-lg navbar-light  menu" id="menu">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about_us">{{ __('lang.about_us') }}</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#services">{{ __('lang.services') }}</a>
+                      </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#contact_form">{{ __('lang.contact') }}</a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="#where_are_we">{{ __('lang.where_are_we') }}</a>
+                          </li>
+                <li class="nav-item">
+                    <a href="locale/en" class="nav-link"><img src="{{ asset('img/icons/uk_flag.png') }}" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a href="locale/es" class="nav-link"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
 	<main class="container">
         <span class="anchor" id="about_us"></span>
@@ -44,52 +74,101 @@
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit veniam saepe cum aspernatur neque odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt perferendis. Lorem ipsum dolor sit amet consectetur.</p>
 			</article>
 
-			<div class="col-12">
-				<div class="row justify-content-center">
+{{--			<div class="col-12">--}}
+
+
+                <div class="row justify-content-center">
+                    <article class="col-12 col-lg-6 py-1">
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-1.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">
+                                        Viajes personalizados
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="row justify-content-center">
 					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-1.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-2.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">Cata de vinos con degustación</p>
+                                </figcaption>
+                            </figure>
+                        </a>
 					</article>
 
 					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-2.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-3.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">Menú degustación D.O. Marbellla</p>
+                                </figcaption>
+                            </figure>
+                        </a>
 					</article>
 
 					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-3.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-4.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">Quesería La Frasera</p>
+                                </figcaption>
+                            </figure>
+                        </a>
 					</article>
 
-					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-4.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
-					</article>
-                    <a class="d-block btn-productos" href="{{ route('catalog') }}" class="enlace">{{ __('lang.all_products') }}</a>
 				</div>
+            <a class="d-block btn-productos mx-auto" href="{{ route('catalog') }}" class="enlace">{{ __('lang.all_products') }}</a>
 			</div>
-		</div>
+{{--		</div>--}}
 	</main>
 
-	<div class="separador text-center text-white">
-		<p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eligendi</q></p>
-	</div>
+    <div id="carousel" class="carousel slide carousel-fade mb-5" data-ride="carousel" data-pause="false"  data-interval="3000">
+        <a href="">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/profits.png" alt="">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h3>¿Buscas una oportunidad de inversión?</h3>
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                    <div class="carousel-caption  d-xs-block">
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/invest.png" alt="">
+                    <div class="carousel-caption d-none d-md-block  ">
+                        <h3>¿Buscas una oportunidad de inversión?</h3>
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                    <div class="carousel-caption  d-xs-block ">
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/strategy.png" alt="">
+                    <div class="carousel-caption d-none d-md-block  ">
+                        <h3>¿Buscas una oportunidad de inversión?</h3>
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                    <div class="carousel-caption  d-xs-block ">
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+    </div>
 
 	<div class="container">
 		<div class="row acerca-de justify-content-around">
@@ -135,15 +214,36 @@
 		</div>
 	</div>
 
-	<div class="container-fluid" id="">
+	<div class="container" id="">
 
         <span class="anchor" id="contact_form"></span>
         <section class="contacto row justify-content-center">
             <div class="col-12 col-md-9 text-center">
                     <h2 class="subtitulo"><span>{{ __('lang.contact_form') }}</span></h2>
             </div>
-            <div class="col-12 col-md-9 text-center">
-                    aquí irá el formulario de contacto
+            <div class="col-sm-9 col-12 col-md-4 text-center">
+                {{-- // mostramos mensaje --}}
+        @include('includes.message')
+                            <form action="{{ route('contactForm') }}" method="POST" id="contactForm">
+                                @csrf
+							  <div class="form-group">
+							    <label for="name">Nombre</label>
+							    <input type="text" class="form-control" id="name" aria-describedby="your name" placeholder="" required>
+							  </div>
+								<div class="form-group">
+							    <label for="surname">Apellido</label>
+							    <input type="text" class="form-control" id="surname" aria-describedby="your surname" placeholder="" required>
+							  </div>
+							  <div class="form-group">
+							    <label for="email">Email</label>
+							    <input type="email" class="form-control" id="email" placeholder="" required>
+							  </div>
+								<div class="form-group">
+								 <label for="text">Tu mensaje</label>
+								 <textarea name="text" id="text" class="form-control" rows="5" cols="80" required></textarea>
+							 </div>
+							  <button type="submit" class="submit-form">Enviar</button>
+							</form>
 
             </div>
         </section>
@@ -165,7 +265,7 @@
 			<div class="w-100 mb-4"></div>
 			<div>
 				<p class="border-bottom border-top">
-					<img src="img/icons/mobile-phone-8-64.png" alt="">653 891 672
+					<img src="img/icons/mobile-phone-8-64.png" alt="">+34 653 891 672
 				</p>
             </div>
 			<div class="w-100 mb-4"></div>
@@ -174,18 +274,124 @@
                     <img src="img/icons/inbox-8-64.png" alt="">&nbsp; info@cheffy.com
                 </p>
             </div>
-		</section>
+        </section>
+    </div>
 
-		<footer class="row justify-content-center redes-sociales">
-			<div class="col-auto">
-				<a href="#"><img src="img/icons/facebook.png" alt=""></a>
-				<a href="#"><img src="img/icons/twitter.png" alt=""></a>
-				<a href="#"><img src="img/icons/instagram-new.png" alt=""></a>
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4 redes-sociales">
+
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left">
+
+			<!-- Grid row -->
+			<div class="row">
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!-- Grid column -->
+				<div class="col-md-4 mx-auto">
+
+					<!-- Links -->
+					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Sobre nosotros</h5>
+
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Quiénes somos</a>
+						</li>
+						<li>
+							<a href="#!">Trabaja con nosotros</a>
+						</li>
+						<li>
+							<a href="#!">Invierte en Cheffy</a>
+						</li>
+					</ul>
+
+				</div>
+				<!-- Grid column -->
+
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!-- Grid column -->
+				<div class="col-md-4 mx-auto">
+
+					<!-- Links -->
+					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Información importante</h5>
+
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Condiciones generales</a>
+						</li>
+						<li>
+							<a href="#!">Política de privacidad</a>
+						</li>
+						<li>
+							<a href="#!">Preguntas frecuentes</a>
+						</li>
+						<li>
+							<a href="#!">Política de cookies</a>
+                        </li>
+                        <li>
+                            <a href="#!">Atención al cliente</a>
+                        </li>
+					</ul>
+
+				</div>
+				<!-- Grid column -->
+
 			</div>
-		</footer>
-	</div>
+			<!-- Grid row -->
+
+		</div>
+		<!-- Footer Links -->
+
+		<hr>
+
+		<!-- Invierte en Cheffy -->
+		<ul class="list-unstyled list-inline text-center py-2">
+			<li class="list-inline-item">
+				<h5 class="mb-1">Invierte en Cheffy</h5>
+			</li>
+			<li class="list-inline-item">
+				<a href="#!" class="btn btn-danger btn-rounded">Saber más!</a>
+			</li>
+		</ul>
+		<!-- Invierte en Cheffy -->
+
+		<hr>
+
+		<!-- Redes sociales -->
+		<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+						<a class="btn-floating btn-gplus mx-1" href="https://sites.google.com/fp.uoc.edu/grupo-tourify/presentaci%C3%B3n-del-proyecto" target="_blank"><img src="img/icons/google-plus-3-96.png" alt="">
+						</a>
+					</li>
+			<li class="list-inline-item">
+				<a class="btn-floating btn-fb mx-1" href="https://www.youtube.com/watch?v=-Fyn83okjg8&feature=youtu.be" target="_blank">
+						<img src="img/icons/youtube-3-96.png" alt="">
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="btn-floating btn-tw mx-1" href="https://github.com/FernandoDavidGomezOrtega/web-cheffy" target="_blank"><img src="img/icons/github-8-96.png" alt="">
+				</a>
+			</li>
+		</ul>
+		<!-- Redes sociales -->
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© 2018 Copyright: Grupo Tourify - UOC
+		</div>
+		<!-- Copyright -->
+
+	</footer>
 
 
-	<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
