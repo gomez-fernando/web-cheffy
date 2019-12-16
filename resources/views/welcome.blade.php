@@ -33,9 +33,6 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                {{-- <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li> --}}
                 <li class="nav-item">
                   <a class="nav-link" href="#about_us">{{ __('lang.about_us') }}</a>
                 </li>
@@ -54,32 +51,9 @@
                 <li class="nav-item">
                     <a href="locale/es" class="nav-link"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
                 </li>
-
+              </ul>
             </div>
           </nav>
-
-
-
-	{{-- <nav class="menu" id="menu">
-        <a href="#about_us">{{ __('lang.about_us') }}</a>
-		<a href="#services">{{ __('lang.services') }}</a>
-		<a href="#contact_form">{{ __('lang.contact') }}</a>
-        <a href="#where_are_we">{{ __('lang.where_are_we') }}</a>
-        <a class="nav-link" href="locale/en"  style="padding: 10px"><img src="{{ asset('img/icons/uk_flag.png') }}" alt="" class="px-0"></a>
-        <a class="nav-link" href="locale/es" style="padding: 10px"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
-        <div class="collapse navbar-collapse mr-0" id="navbarSupportedContent">
-            <div class="form-inline my-2 my-lg-0 ml-auto ">
-                <ul class="navbar-nav mr-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="locale/en"><img src="{{ asset('img/icons/uk_flag.png') }}" alt=""></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="locale/es"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-	</nav> --}}
 
 	<main class="container">
         <span class="anchor" id="about_us"></span>
@@ -100,52 +74,101 @@
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit veniam saepe cum aspernatur neque odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt perferendis. Lorem ipsum dolor sit amet consectetur.</p>
 			</article>
 
-			<div class="col-12">
-				<div class="row justify-content-center">
+{{--			<div class="col-12">--}}
+
+
+                <div class="row justify-content-center">
+                    <article class="col-12 col-lg-6 py-1">
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-1.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">
+                                        Viajes personalizados
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="row justify-content-center">
 					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-1.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-2.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">Cata de vinos con degustación</p>
+                                </figcaption>
+                            </figure>
+                        </a>
 					</article>
 
 					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-2.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-3.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">Menú degustación D.O. Marbellla</p>
+                                </figcaption>
+                            </figure>
+                        </a>
 					</article>
 
 					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-3.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
+                        <a href="">
+                            <figure class="producto">
+                                <img src="img/products/pr-4.jpg" class="img-fluid" alt="">
+                                <figcaption class="overlay">
+                                    <p class="overlay-texto">Quesería La Frasera</p>
+                                </figcaption>
+                            </figure>
+                        </a>
 					</article>
 
-					<article class="col-6 col-lg-3 py-1">
-						<figure class="producto">
-							<img src="img/products/pr-4.jpg" class="img-fluid" alt="">
-							<figcaption class="overlay">
-								<p class="overlay-texto">Nombre del producto</p>
-							</figcaption>
-						</figure>
-					</article>
-                    <a class="d-block btn-productos" href="{{ route('catalog') }}" class="enlace">{{ __('lang.all_products') }}</a>
 				</div>
+            <a class="d-block btn-productos mx-auto" href="{{ route('catalog') }}" class="enlace">{{ __('lang.all_products') }}</a>
 			</div>
-		</div>
+{{--		</div>--}}
 	</main>
 
-	<div class="separador text-center text-white">
-		<p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eligendi</q></p>
-	</div>
+    <div id="carousel" class="carousel slide carousel-fade mb-5" data-ride="carousel" data-pause="false"  data-interval="3000">
+        <a href="">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/profits.png" alt="">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h3>¿Buscas una oportunidad de inversión?</h3>
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                    <div class="carousel-caption  d-xs-block">
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/invest.png" alt="">
+                    <div class="carousel-caption d-none d-md-block  ">
+                        <h3>¿Buscas una oportunidad de inversión?</h3>
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                    <div class="carousel-caption  d-xs-block ">
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/strategy.png" alt="">
+                    <div class="carousel-caption d-none d-md-block  ">
+                        <h3>¿Buscas una oportunidad de inversión?</h3>
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                    <div class="carousel-caption  d-xs-block ">
+                        <h4>Invierte en Cheffy!!</h4>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+    </div>
 
 	<div class="container">
 		<div class="row acerca-de justify-content-around">
