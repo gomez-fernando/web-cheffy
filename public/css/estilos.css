@@ -22,9 +22,11 @@ p {
 }
 
 span.anchor {
-    margin-top: -100px; /* height of nav, in this case 54px */
+	/* margin-top: -100px; /* height of nav, in this case 54px */ */
+    margin-top: -30px; /* height of nav, in this case 54px */
     display: block;
-    height: 100px; /* height of nav, in this case 54px */
+		/* height: 100px; /* height of nav, in this case 54px */ */
+    height: 60px; /* height of nav, in this case 54px */
     visibility: hidden;
     position: relative;
 }
@@ -77,7 +79,8 @@ span.anchor {
 	justify-content: center;
 	font-family: 'Noto Serif', serif;
 	font-style: italic;
-	margin-bottom: 60px;
+    margin-bottom: 60px;
+    color: #fff;
 }
 
 .menu a {
@@ -94,6 +97,10 @@ span.anchor {
 .menu a:hover {
 	transform: translateY(18px);
 	background-color: var(--purple-dark);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--gray-light) !important;
 }
 
 /* ------------------------- */
@@ -199,11 +206,24 @@ span.anchor {
 	position: absolute;
 	white-space: nowrap;
 	color: var(--white);
-	font-size: 18px;
+	font-size: 16px;
 	transform: translate(-50%, -50%);
 	overflow: hidden;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
+}
+
+.productos .producto .overlay-viajes-personalizados {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    white-space: nowrap;
+    color: var(--white);
+    font-size: 24px !important;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .productos .btn-productos {
@@ -262,6 +282,30 @@ span.anchor {
 	padding: 10px;
 }
 
+/*-------------------------------*/
+/*Carousel*/
+/*-------------------------------*/
+#carousel{
+    border-top: 1px solid rgb(245, 79, 19);
+    border-bottom: 1px solid rgb(245, 79, 19);
+
+}
+
+#carousel h3{
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    color: rgb(245, 79, 19);
+
+}
+
+#carousel h4{
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+    color: #ece50c;
+}
+
+/*h3{*/
+/*    color: red;*/
+/*}*/
+
 /* ------------------------- */
 /* Acerca de */
 /* ------------------------- */
@@ -302,6 +346,29 @@ span.anchor {
 	transform: scale(1.2);
 }
 
+/* -------------------------
+footer
+------------------------- */
+footer{
+    color: white;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 /* ------------------------- */
 /* Mediaqueries */
 /* ------------------------- */
@@ -323,4 +390,40 @@ span.anchor {
 		font-size: 30px;
 	}
 
+}
+
+@media screen and (max-width: 1199px){
+	.productos .producto .overlay-texto {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.productos .producto .overlay-texto {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.productos .producto .overlay-texto {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 495px){
+	.productos .producto .overlay-texto {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 495px){
+	.productos .producto .overlay-texto {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 377px){
+	.productos .producto .overlay-texto {
+		font-size: 8px;
+	}
 }
