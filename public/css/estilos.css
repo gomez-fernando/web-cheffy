@@ -22,9 +22,11 @@ p {
 }
 
 span.anchor {
-    margin-top: -100px; /* height of nav, in this case 54px */
+	/* margin-top: -100px; /* height of nav, in this case 54px */ */
+    margin-top: -30px; /* height of nav, in this case 54px */
     display: block;
-    height: 100px; /* height of nav, in this case 54px */
+		/* height: 100px; /* height of nav, in this case 54px */ */
+    height: 60px; /* height of nav, in this case 54px */
     visibility: hidden;
     position: relative;
 }
@@ -204,11 +206,24 @@ span.anchor {
 	position: absolute;
 	white-space: nowrap;
 	color: var(--white);
-	font-size: 18px;
+	font-size: 16px;
 	transform: translate(-50%, -50%);
 	overflow: hidden;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
+}
+
+.productos .producto .overlay-viajes-personalizados {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    white-space: nowrap;
+    color: var(--white);
+    font-size: 24px !important;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .productos .btn-productos {
@@ -375,4 +390,40 @@ footer a:visited{
 		font-size: 30px;
 	}
 
+}
+
+@media screen and (max-width: 1199px){
+	.productos .producto .overlay-texto {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.productos .producto .overlay-texto {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.productos .producto .overlay-texto {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 495px){
+	.productos .producto .overlay-texto {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 495px){
+	.productos .producto .overlay-texto {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 377px){
+	.productos .producto .overlay-texto {
+		font-size: 8px;
+	}
 }

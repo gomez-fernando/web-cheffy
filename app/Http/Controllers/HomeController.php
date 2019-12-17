@@ -34,26 +34,26 @@ class HomeController extends Controller
 
     public function catalog()
     {
-        return view('catalog');
+        return view('products.catalog');
     }
 
     public function product1()
     {
-        return view('product1');
+        return view('products.product1');
     }
 
     public function product2()
     {
-        return view('product2');
+        return view('products.product2');
     }
 
     public function product3()
     {
-        return view('product3');
+        return view('products.product3');
     }
 
     public function product4()
     {
-        return view('product4');
+        return view('products.product4');
     }
 }
