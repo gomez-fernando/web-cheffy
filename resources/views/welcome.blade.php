@@ -83,7 +83,7 @@
                             <figure class="producto">
                                 <img src="img/products/pr-1.jpg" class="img-fluid" alt="">
                                 <figcaption class="overlay">
-                                    <p class="overlay-texto">
+                                    <p class="overlay-viajes-personalizados">
                                         Viajes personalizados
                                     </p>
                                 </figcaption>
@@ -259,7 +259,7 @@
 			<div class="w-100 mb-4"></div>
 			<div>
 				<p class="border-bottom border-top">
-					<img src="img/icons/icon-location-64.png" alt="">Paseo Marítimo, 8, 29602 Marbella, Málaga
+					<img src="img/icons/icon-location-64.png" alt="">Paseo Marítimo, 8, 29602 Marbella
 				</p>
 			</div>
 			<div class="w-100 mb-4"></div>
