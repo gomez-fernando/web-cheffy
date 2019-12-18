@@ -29,3 +29,4 @@ Route::post('/contactForm', 'HomeController@contactForm')->name('contactForm');
 
 // avisos legales
 Route::get('/general-conditions', 'HomeController@generalConditions')->name('importantInfo.generalConditions');
+Route::get('/customer-service', 'HomeController@customerService')->name('importantInfo.customerService');

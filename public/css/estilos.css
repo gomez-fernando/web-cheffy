@@ -22,10 +22,10 @@ p {
 }
 
 span.anchor {
-	/* margin-top: -100px; /* height of nav, in this case 54px */ */
+	/* margin-top: -100px; /* height of nav, in this case 54px */
     margin-top: -30px; /* height of nav, in this case 54px */
     display: block;
-		/* height: 100px; /* height of nav, in this case 54px */ */
+		/* height: 100px; /* height of nav, in this case 54px */
     height: 60px; /* height of nav, in this case 54px */
     visibility: hidden;
     position: relative;
@@ -47,7 +47,7 @@ span.anchor {
 	width: 0%;
 	height: 100%;
 	max-width: 100%;
-	background-image: url(../img/bg-top.png);
+	background-image: url(../img/bg-fish.jpg);
 }
 
 .contenido-header .texto {
@@ -261,26 +261,26 @@ span.anchor {
 /* ------------------------- */
 /* Separador */
 /* ------------------------- */
-.separador {
-	width: 100%;
-	height: 250px;
-	background-image: url('../img/bg-dish.jpg');
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	margin-bottom: 60px;
-}
+/*.separador {*/
+/*	width: 100%;*/
+/*	height: 250px;*/
+/*	background-image: url('../img/bg-dish.jpg');*/
+/*	background-position: center;*/
+/*	background-size: cover;*/
+/*	background-attachment: fixed;*/
+/*	margin-bottom: 60px;*/
+/*}*/
 
-.separador p {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 24px;
-	font-family: 'Noto Serif', serif;
-	padding: 10px;
-}
+/*.separador p {*/
+/*	height: 100%;*/
+/*	width: 100%;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	justify-content: center;*/
+/*	font-size: 24px;*/
+/*	font-family: 'Noto Serif', serif;*/
+/*	padding: 10px;*/
+/*}*/
 
 /*-------------------------------*/
 /*Carousel*/
@@ -346,9 +346,28 @@ span.anchor {
 	transform: scale(1.2);
 }
 
+.info-text{
+    font-size: 1rem;
+    line-height: 120%;
+}
+
 /* -------------------------
 footer
 ------------------------- */
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: orangered;
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+}
+
 footer{
     color: white;
 }
@@ -389,6 +408,10 @@ footer a:visited{
 	.productos .titulo {
 		font-size: 30px;
 	}
+
+    /*.info-text{*/
+    /*    font-size: 11px;*/
+    /*}*/
 
 }
 
