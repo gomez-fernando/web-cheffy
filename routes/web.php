@@ -26,4 +26,6 @@ Route::get('/products/product4', 'HomeController@product4')->name('products.prod
 
 // formularios
 Route::post('/contactForm', 'HomeController@contactForm')->name('contactForm');
+
 // avisos legales
+Route::get('/general-conditions', 'HomeController@generalConditions')->name('importantInfo.generalConditions');
