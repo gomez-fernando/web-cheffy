@@ -56,4 +56,9 @@ class HomeController extends Controller
     {
         return view('products.product4');
     }
+
+    public function generalConditions()
+    {
+        return view('importantInfo.generalConditions');
+    }
 }
