@@ -27,28 +27,38 @@ class HomeController extends Controller
         return view('welcome');
     }
 
+    public function contactForm(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
     public function catalog()
     {
-        return view('catalog');
+        return view('products.catalog');
     }
 
     public function product1()
     {
-        return view('product1');
+        return view('products.product1');
     }
 
     public function product2()
     {
-        return view('product2');
+        return view('products.product2');
     }
 
     public function product3()
     {
-        return view('product3');
+        return view('products.product3');
     }
 
     public function product4()
     {
-        return view('product4');
+        return view('products.product4');
+    }
+
+    public function generalConditions()
+    {
+        return view('importantInfo.generalConditions');
     }
 }
