@@ -286,6 +286,7 @@ span.anchor {
 /*Carousel*/
 /*-------------------------------*/
 #carousel{
+    z-index: -1 ;
     border-top: 1px solid rgb(245, 79, 19);
     border-bottom: 1px solid rgb(245, 79, 19);
 
@@ -366,6 +367,7 @@ footer
     right: 15px;
     bottom: 35px;
     transition: background 0.5s;
+    z-index: 99;
 }
 
 footer{
