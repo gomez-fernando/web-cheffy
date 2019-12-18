@@ -8,7 +8,7 @@
 @include('includes.navbarHome')
 
 @section('content')
-    <p>{{ __('generalConditions.10') }}</p>
-    <p>{{ __('generalConditions.20') }}</p>
+    <h1>{{ __('generalConditions.10') }}</h1>
+    <h2>{{ __('generalConditions.20') }}</h2>
     <p>{{ __('generalConditions.30') }}</p>
 @stop
