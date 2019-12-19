@@ -61,4 +61,9 @@ class HomeController extends Controller
     {
         return view('importantInfo.generalConditions');
     }
+
+    public function customerService()
+    {
+        return view('importantInfo.customerService');
+    }
 }
