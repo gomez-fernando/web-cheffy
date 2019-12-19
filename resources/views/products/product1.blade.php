@@ -14,9 +14,9 @@
         <span class="anchor" id="services"></span>
         <div class="row productos">
             <article class="col-12 text-center">
-                <h2 class="subtitulo"><span>{{ __('descubre tu próxima experiencia') }}</span></h2>
-                <p class="titulo">{{ __('PRODUCTO 1') }}</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit veniam saepe cum aspernatur neque odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt perferendis. Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="subtitulo"><span>{{ __('lang.discover') }}</span></h2>
+                <p class="titulo">{{ __('lang.product1_tittle') }}</p>
+                <p>{{ __('lang.product1_description_1') }}</p>
             </article>
 
             <!-- <div class="col-md-6 col-12"> -->
@@ -30,7 +30,7 @@
                 <!-- </div> -->
             </div>
             <article class="col-12 text-center">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit veniam saepe cum aspernatur neque odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt perferendis. Lorem ipsum dolor sit amet consectetur.</p>
+                <p>{{ __('lang.product1_description_2') }}</p>
             </article>
 
         </div>
