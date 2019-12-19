@@ -126,7 +126,7 @@
     <!-- Redes sociales -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright: Grupo Tourify - UOC
+    <div class="footer-copyright text-center py-3">© 2019 Copyright: Grupo Tourify - UOC
     </div>
     <!-- Copyright -->
 
