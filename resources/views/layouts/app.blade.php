@@ -110,16 +110,16 @@
     <!-- Redes sociales -->
     <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1" href="https://sites.google.com/fp.uoc.edu/grupo-tourify/presentaci%C3%B3n-del-proyecto" target="_blank"><img src="img/icons/google-plus-3-96.png" alt="">
+            <a class="btn-floating btn-gplus mx-1" href="https://sites.google.com/fp.uoc.edu/grupo-tourify/presentaci%C3%B3n-del-proyecto" target="_blank"><img src="{{ asset('img/icons/google-plus-3-96.png') }}" alt="">
             </a>
         </li>
         <li class="list-inline-item">
             <a class="btn-floating btn-fb mx-1" href="https://www.youtube.com/watch?v=-Fyn83okjg8&feature=youtu.be" target="_blank">
-                <img src="img/icons/youtube-3-96.png" alt="">
+                <img src="{{ asset('img/icons/youtube-3-96.png') }}" alt="">
             </a>
         </li>
         <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1" href="https://github.com/FernandoDavidGomezOrtega/web-cheffy" target="_blank"><img src="img/icons/github-8-96.png" alt="">
+            <a class="btn-floating btn-tw mx-1" href="https://github.com/FernandoDavidGomezOrtega/web-cheffy" target="_blank"><img src="{{ asset('img/icons/github-8-96.png') }}" alt="">
             </a>
         </li>
     </ul>
@@ -136,12 +136,12 @@
 </footer>
 
 <!-- Required JavaScript Libraries -->
-<script src="lib/jquery/jquery.min.js"></script>
-<script src="lib/easing/easing.js"></script>
+<script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.js') }}"></script>
 <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
 
 <!-- principales funciones javascript de la aplicación -->
-<script src="js/main.js"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
