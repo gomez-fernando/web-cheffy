@@ -100,7 +100,7 @@
                         <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                     <div class="carousel-caption  d-xs-block">
-
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -110,6 +110,7 @@
                         <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                     <div class="carousel-caption  d-xs-block">
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -119,6 +120,7 @@
                         <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                     <div class="carousel-caption  d-xs-block">
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
 
