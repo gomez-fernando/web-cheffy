@@ -27,6 +27,9 @@ Route::get('/products/product4', 'HomeController@product4')->name('products.prod
 // formularios
 Route::post('/contactForm', 'HomeController@contactForm')->name('contactForm');
 
+// sobre nosotros
+Route::get('/about-us', 'HomeController@aboutUs')->name('aboutUs.aboutUs');
+
 // avisos legales
 Route::get('/general-conditions', 'HomeController@generalConditions')->name('importantInfo.generalConditions');
 Route::get('/customer-service', 'HomeController@customerService')->name('importantInfo.customerService');

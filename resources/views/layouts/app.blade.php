@@ -43,7 +43,7 @@
 
                 <ul class="list-unstyled">
                     <li>
-                        <a href="#!">Quiénes somos</a>
+                        <a href="{{ route('aboutUs.aboutUs') }}">Quiénes somos</a>
                     </li>
                     <li>
                         <a href="#!">Trabaja con nosotros</a>

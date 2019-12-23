@@ -348,8 +348,13 @@ span.anchor {
 }
 
 .info-text{
-    font-size: 1rem;
+    font-size: 1rem !important;
     line-height: 120%;
+}
+
+
+.in-page-cheffy-logo{
+    width: 400px;
 }
 
 /* -------------------------
@@ -393,6 +398,12 @@ footer a:visited{
 /* ------------------------- */
 /* Mediaqueries */
 /* ------------------------- */
+@media screen and (max-width: 1199px){
+    .productos .producto .overlay-texto {
+        font-size: 14px;
+    }
+
+}
 @media screen and (max-width: 992px) {
 	p {
 		font-size: 18px;
@@ -415,12 +426,6 @@ footer a:visited{
     /*    font-size: 11px;*/
     /*}*/
 
-}
-
-@media screen and (max-width: 1199px){
-	.productos .producto .overlay-texto {
-		font-size: 14px;
-	}
 }
 
 @media screen and (max-width: 991px){

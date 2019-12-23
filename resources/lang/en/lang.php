@@ -23,5 +23,7 @@ return [
     'commitment' => 'A service commitment',
     'where_are_we' => 'Where are we?',
     'contact_form' => 'Contact us',
+    'home' => 'Home',
+    '210' => 'Catálogo',
 
 ];

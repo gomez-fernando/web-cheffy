@@ -66,4 +66,9 @@ class HomeController extends Controller
     {
         return view('importantInfo.customerService');
     }
+
+    public function aboutUs()
+    {
+        return view('aboutUs.aboutUs');
+    }
 }
