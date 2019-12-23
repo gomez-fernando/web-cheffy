@@ -28,7 +28,7 @@ return [
     'where_are_we' => '¿Dónde estamos?',
     'contact_form' => 'Contacto',
     'our_products_description' => 'Cenas, comidas, brunch, picnics, degustaciones, aperitivos y mucho más... los anfitriones de Cheffy te esperan en su mesa, ya sea en tu propia ciudad. Reserva una de nuestas experiencias gastronómicas y crea recuerdos que te durarán para siempre!',
-    'product1_tittle' => 'Viajes Personalizado',
+    'product1_tittle' => 'Viajes Personalizados',
     'product1_description_1' => 'Enfúndate los zapatos y contempla la ciudad desde otra perspectiva junto a guías y anfitriones locales. Descubre joyas culinarias escondidas, conoce las personas que están detrás de los productos y compra donde lo hacen los locales en tours inmersivos e interactivos.',
     'product1_description_2' => 'Desde una ruta personalizada por la increible ciudad de Marbella, los tours culinarios de Cheffy son la manera perfecta para explorar la ciudad.',
      'product2_tittle' => 'Cata de vinos con degustación',
@@ -43,5 +43,8 @@ return [
     'surname' => 'Apellidos',
     'email' => 'email',
     'message' => 'Tu mensaje',
-    'send' => 'Enviar'
+    'send' => 'Enviar',
+    'home' => 'Inicio',
+    '210' => 'Catálogo',
+
 ];

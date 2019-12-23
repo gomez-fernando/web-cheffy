@@ -97,30 +97,27 @@
                     <img class="d-block w-100" src="img/profits.png" alt="">
                     <div class="carousel-caption d-none d-md-block ">
                         <h3>{{ __('lang.inversion') }}</h3>
-                        <h4>{{ __('lang.inversion_our') }}</h4>
                     </div>
                     <div class="carousel-caption  d-xs-block">
-                        <h4>Invierte en Cheffy!!</h4>
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/invest.png" alt="">
-                    <div class="carousel-caption d-none d-md-block  ">
+                    <div class="carousel-caption d-none d-md-block ">
                         <h3>{{ __('lang.inversion') }}</h3>
-                        <h4>{{ __('lang.inversion_our') }}</h4>
                     </div>
-                    <div class="carousel-caption  d-xs-block ">
-                        <h4>Invierte en Cheffy!!</h4>
+                    <div class="carousel-caption  d-xs-block">
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/strategy.png" alt="">
-                    <div class="carousel-caption d-none d-md-block  ">
+                    <div class="carousel-caption d-none d-md-block ">
                         <h3>{{ __('lang.inversion') }}</h3>
-                        <h4>{{ __('lang.inversion_our') }}</h4>
                     </div>
-                    <div class="carousel-caption  d-xs-block ">
-                        <h4>{{ __('lang.inversion_our') }}</h4>
+                    <div class="carousel-caption  d-xs-block">
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
 
