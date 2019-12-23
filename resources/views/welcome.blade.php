@@ -91,40 +91,40 @@
     </main>
 
     <div id="carousel" class="carousel slide carousel-fade mb-5" data-ride="carousel" data-pause="false"  data-interval="3000">
-        <a href="">
+        <a href="{{ route('aboutUs.invest') }}">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="img/profits.png" alt="">
-                    <div class="carousel-caption d-none d-md-block ">
+                    <div class="carousel-caption d-none d-md-block " >
                         <h3>{{ __('lang.inversion') }}</h3>
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                     <div class="carousel-caption  d-xs-block">
-                        <h4>{{ __('lang.invest_our') }}</h4>
+
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/invest.png" alt="">
                     <div class="carousel-caption d-none d-md-block ">
                         <h3>{{ __('lang.inversion') }}</h3>
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                     <div class="carousel-caption  d-xs-block">
-                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="img/strategy.png" alt="">
                     <div class="carousel-caption d-none d-md-block ">
                         <h3>{{ __('lang.inversion') }}</h3>
+                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                     <div class="carousel-caption  d-xs-block">
-                        <h4>{{ __('lang.invest_our') }}</h4>
                     </div>
                 </div>
 
             </div>
         </a>
     </div>
-
     <div class="container">
         <div class="row acerca-de justify-content-around">
             <article class="col-10 col-sm-5">
@@ -132,8 +132,9 @@
                     <img src="img/icons/icon-team.png" alt="">
                     <figcaption>
                         <p>
-                            <strong class="mb-2">{{ __('lang.experts') }}</strong>
+                            <strong class="mb-2">{{ __('lang.experts') }}</strong></p>
                         <div class="w-100"></div>
+                        <p>
                         {{ __('lang.team_made_up') }}
                         </p>
                     </figcaption>
@@ -146,7 +147,9 @@
                     <figcaption>
                         <p>
                             <strong class="mb-2">{{ __('lang.commitment') }}</strong>
+                        </p>
                         <div class="w-100"></div>
+                        <p>
                         {{ __('lang.commitment_services') }}
                         </p>
                     </figcaption>

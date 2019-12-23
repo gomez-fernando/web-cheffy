@@ -25,6 +25,8 @@ class HomeController extends Controller
     public function welcome()
     {
         return view('welcome');
+
+
     }
 
     public function contactForm(){
@@ -70,5 +72,15 @@ class HomeController extends Controller
     public function aboutUs()
     {
         return view('aboutUs.aboutUs');
+    }
+
+    public function invest()
+    {
+        return view('aboutUs.invest');
+    }
+
+    public function workWithUs()
+    {
+        return view('aboutUs.workWithUs');
     }
 }

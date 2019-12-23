@@ -29,6 +29,8 @@ Route::post('/contactForm', 'HomeController@contactForm')->name('contactForm');
 
 // sobre nosotros
 Route::get('/about-us', 'HomeController@aboutUs')->name('aboutUs.aboutUs');
+Route::get('/join-us', 'HomeController@workWithUs')->name('aboutUs.workWithUs');
+Route::get('/invest-in-Cheffy', 'HomeController@invest')->name('aboutUs.invest');
 
 // avisos legales
 Route::get('/general-conditions', 'HomeController@generalConditions')->name('importantInfo.generalConditions');

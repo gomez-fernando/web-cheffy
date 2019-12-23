@@ -46,10 +46,10 @@
                         <a href="{{ route('aboutUs.aboutUs') }}">Quiénes somos</a>
                     </li>
                     <li>
-                        <a href="#!">Trabaja con nosotros</a>
+                        <a href="{{ route('aboutUs.workWithUs') }}">Trabaja con nosotros</a>
                     </li>
                     <li>
-                        <a href="#!">Invierte en Cheffy</a>
+                        <a href="{{ route('aboutUs.invest') }}">Invierte en Cheffy</a>
                     </li>
                 </ul>
 
@@ -100,7 +100,7 @@
             <h5 class="mb-1">Invierte en Cheffy</h5>
         </li>
         <li class="list-inline-item">
-            <a href="#!" class="btn btn-danger btn-rounded">Saber más!</a>
+            <a href="{{ route('aboutUs.invest') }}" class="btn btn-danger btn-rounded">Saber más!</a>
         </li>
     </ul>
     <!-- Invierte en Cheffy -->
