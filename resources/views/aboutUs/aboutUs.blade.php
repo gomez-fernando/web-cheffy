@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    <title>Cheffy</title>
+    <title>{{ __('aboutUs.10') }}</title>
 @endsection
 
 {{-- // mostramos navbar --}}

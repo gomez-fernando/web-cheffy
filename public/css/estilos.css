@@ -37,18 +37,16 @@ span.anchor {
 .contenido-header {
 	width: 100%;
 	height: 100vh;
-	background-image: url(../img/bg-fish.jpg);
+	background-image: url(../img/bg-portada.png);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-/*.contenido-header .fondo {*/
-/*	width: 0%;*/
-/*	height: 100%;*/
-/*	max-width: 100%;*/
-/*	background-image: url(../img/bg-fish.jpg);*/
-/*}*/
+#logo-cheffy {
+    padding-top: 168px;
+    margin-left: 380px;
+}
 
 .contenido-header .texto {
 	width: calc(100vw - 20px);
@@ -286,7 +284,7 @@ span.anchor {
 /*Carousel*/
 /*-------------------------------*/
 #carousel{
-    z-index: -1 ;
+    /*z-index: -1 ;*/
     border-top: 1px solid rgb(245, 79, 19);
     border-bottom: 1px solid rgb(245, 79, 19);
 
@@ -438,6 +436,15 @@ footer a:visited{
 	.productos .producto .overlay-texto {
 		font-size: 14px;
 	}
+
+    .contenido-header {
+        /*width: 100%;*/
+        /*height: 100vh;*/
+        background-image: url(../img/bg-portada2.png);
+        /*background-position: center;*/
+        /*background-size: cover;*/
+        /*background-attachment: fixed;*/
+    }
 }
 
 @media screen and (max-width: 495px){
