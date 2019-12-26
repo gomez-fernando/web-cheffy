@@ -8,7 +8,7 @@ return [
     |
     */
 
-    'title' => 'Atención al cliente',
+    'title' => 'Customer Support',
     '' => 'Atención',
     '' => 'Atención',
     '' => 'Atención',

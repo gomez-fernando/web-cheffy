@@ -8,18 +8,8 @@ return [
     |
     */
 
-    '10' => 'Invierte en Cheffy',
-    '20' => '¿Buscas una oportunidad para invertir en una start-up española?.',
-
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-    '8u8u' => 'Descubre joyas culinarias escondidas',
-
+    '10' => 'Invest in Cheffy',
+    '20' => 'Are you looking for an opportunity to invest in a Spanish start-up?',
+    '30' => 'In addition to the return on investment, supporting the startup ecosystem is supporting companies that are starting up and are contributing to the recovery and activation of our economy.',
+    '40' => 'Our country has positioned itself as one of the most attractive and promising on the European scene when it comes to investing in emerging companies.',
 ];

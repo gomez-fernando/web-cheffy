@@ -8,7 +8,7 @@ return [
     |
     */
 
-    'title' => 'Preguntas frecuentes',
+    'title' => 'Frequent questions',
     '' => 'Atención',
     '' => 'Atención',
     '' => 'Atención',

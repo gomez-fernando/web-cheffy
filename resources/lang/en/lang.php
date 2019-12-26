@@ -43,6 +43,15 @@ return [
     'send' => 'Send',
     'home' => 'Home',
     '210' => 'Catalog',
+    'invest_cheffy' => 'Invest Cheffy',
+    'knowMore' => 'Know more!',
+    'work_with_us' => 'Work with us',
+    'important_information' => 'IMPORTANT INFORMATION',
+    'general_conditions' => 'General conditions',
+    'privacy_policy' => 'Privacy Policy',
+    'frequent_questions' => 'Frequent questions',
+    'cookies_policy' => 'Cookies policy',
+    'customer_support' => 'Customer Support',
 
 
 ];
