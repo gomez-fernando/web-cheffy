@@ -70,13 +70,13 @@
                         <a href="{{ route('importantInfo.generalConditions') }}">Condiciones generales</a>
                     </li>
                     <li>
-                        <a href="">Política de privacidad</a>
+                        <a href="{{ route('importantInfo.privacyPolicy') }}">Política de privacidad</a>
                     </li>
                     <li>
-                        <a href="#">Preguntas frecuentes</a>
+                        <a href="{{ route('importantInfo.frequentQuestions') }}">Preguntas frecuentes</a>
                     </li>
                     <li>
-                        <a href="#">Política de cookies</a>
+                        <a href="{{ route('importantInfo.cookiesPolicy') }}">Política de cookies</a>
                     </li>
                     <li>
                         <a href="{{ route('importantInfo.customerService') }}">Atención al cliente</a>

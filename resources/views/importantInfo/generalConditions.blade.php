@@ -10,7 +10,7 @@
 @section('content')
     <div class="container">
        <div class="productos">
-           <h1>{{ __('generalConditions.10') }}</h1>
+           <h1 class="text-center">{{ __('generalConditions.10') }}</h1>
            <h2>{{ __('generalConditions.20') }}</h2>
            <p class="info-text">{{ __('generalConditions.30') }}<br>
                {{ __('generalConditions.40') }}<br>

@@ -59,16 +59,6 @@ class HomeController extends Controller
         return view('products.product4');
     }
 
-    public function generalConditions()
-    {
-        return view('importantInfo.generalConditions');
-    }
-
-    public function customerService()
-    {
-        return view('importantInfo.customerService');
-    }
-
     public function aboutUs()
     {
         return view('aboutUs.aboutUs');
@@ -83,4 +73,31 @@ class HomeController extends Controller
     {
         return view('aboutUs.workWithUs');
     }
+
+    public function generalConditions()
+    {
+        return view('importantInfo.generalConditions');
+    }
+
+    public function privacyPolicy()
+    {
+        return view('importantInfo.privacyPolicy');
+    }
+
+    public function frequentQuestions()
+    {
+        return view('importantInfo.frequentQuestions');
+    }
+
+    public function cookiesPolicy()
+    {
+        return view('importantInfo.cookiesPolicy');
+    }
+
+    public function customerService()
+    {
+        return view('importantInfo.customerService');
+    }
+
+
 }

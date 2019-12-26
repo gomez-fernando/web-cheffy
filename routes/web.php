@@ -34,4 +34,7 @@ Route::get('/invest-in-Cheffy', 'HomeController@invest')->name('aboutUs.invest')
 
 // avisos legales
 Route::get('/general-conditions', 'HomeController@generalConditions')->name('importantInfo.generalConditions');
+Route::get('/privacy-policy', 'HomeController@privacyPolicy')->name('importantInfo.privacyPolicy');
+Route::get('/frequent-questions', 'HomeController@frequentQuestions')->name('importantInfo.frequentQuestions');
+Route::get('/cookies-policy', 'HomeController@cookiesPolicy')->name('importantInfo.cookiesPolicy');
 Route::get('/customer-service', 'HomeController@customerService')->name('importantInfo.customerService');
