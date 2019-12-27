@@ -20,6 +20,8 @@
             </div>
             <div class="row justify-content-center px-5 ">
                 <p class="info-text">{{ __('invest.20') }}</p>
+                <p class="info-text">{{ __('invest.30') }}</p>
+                <p class="info-text">{{ __('invest.40') }}</p>
             </div>
 
             <span class="anchor" id="contact_form"></span>

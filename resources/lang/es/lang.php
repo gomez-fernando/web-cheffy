@@ -46,5 +46,14 @@ return [
     'send' => 'Enviar',
     'home' => 'Inicio',
     '210' => 'Catálogo',
+    'invest_cheffy' => 'Invierte en Cheffy',
+    'knowMore' => 'Saber más!',
+    'work_with_us' => 'Trabaja con nostros',
+    'important_information' => 'INFORMACIÓN IMPORTANTE',
+    'general_conditions' => 'Condiciones generales',
+    'privacy_policy' => 'Política de privacidad',
+    'frequent_questions' => 'Preguntas frecuentes',
+    'cookies_policy' => 'Política de cookies',
+    'customer_support' => 'Atención al cliente',
 
 ];

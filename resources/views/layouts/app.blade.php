@@ -39,17 +39,17 @@
             <div class="col-md-4 mx-auto">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Sobre nosotros</h5>
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">{{ __('lang.about_us') }}</h5>
 
                 <ul class="list-unstyled">
                     <li>
-                        <a href="{{ route('aboutUs.aboutUs') }}">Quiénes somos</a>
+                        <a href="{{ route('aboutUs.aboutUs') }}">{{ __('lang.who_are_we') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('aboutUs.workWithUs') }}">Trabaja con nosotros</a>
+                        <a href="{{ route('aboutUs.workWithUs') }}">{{ __('lang.work_with_us') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('aboutUs.invest') }}">Invierte en Cheffy</a>
+                        <a href="{{ route('aboutUs.invest') }}">{{ __('lang.invest_cheffy') }}</a>
                     </li>
                 </ul>
 
@@ -63,23 +63,23 @@
             <div class="col-md-4 mx-auto">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Información importante</h5>
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">{{ __('lang.important_information') }}</h5>
 
                 <ul class="list-unstyled">
                     <li>
-                        <a href="{{ route('importantInfo.generalConditions') }}">Condiciones generales</a>
+                        <a href="{{ route('importantInfo.generalConditions') }}">{{ __('lang.general_conditions') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('importantInfo.privacyPolicy') }}">Política de privacidad</a>
+                        <a href="{{ route('importantInfo.privacyPolicy') }}">{{ __('lang.privacy_policy') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('importantInfo.frequentQuestions') }}">Preguntas frecuentes</a>
+                        <a href="{{ route('importantInfo.frequentQuestions') }}">{{ __('lang.frequent_questions') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('importantInfo.cookiesPolicy') }}">Política de cookies</a>
+                        <a href="{{ route('importantInfo.cookiesPolicy') }}">{{ __('lang.cookies_policy') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('importantInfo.customerService') }}">Atención al cliente</a>
+                        <a href="{{ route('importantInfo.customerService') }}">{{ __('lang.cookies_policy') }}</a>
                     </li>
                 </ul>
 
@@ -97,10 +97,10 @@
     <!-- Invierte en Cheffy -->
     <ul class="list-unstyled list-inline text-center py-2">
         <li class="list-inline-item">
-            <h5 class="mb-1">Invierte en Cheffy</h5>
+            <h5 class="mb-1">{{ __('lang.invest_cheffy') }}</h5>
         </li>
         <li class="list-inline-item">
-            <a href="{{ route('aboutUs.invest') }}" class="btn btn-danger btn-rounded">Saber más!</a>
+            <a href="{{ route('aboutUs.invest') }}" class="btn btn-danger btn-rounded">{{ __('lang.knowMore') }}</a>
         </li>
     </ul>
     <!-- Invierte en Cheffy -->
