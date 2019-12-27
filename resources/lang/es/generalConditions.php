@@ -8,7 +8,7 @@ return [
     |
     */
 
-    'title' => 'General conditions',
+    'title' => 'Condiciones generales',
     '10' => 'Política de cambios y cancelaciones de reservas',
     '20' => 'Gastos de modificación:',
     '30' => 'Si la reserva permite cambios,  y adicionalmente a los gastos por modificación de reserva que aplique el proveedor (si los hubiera), Cheffy aplicará los siguientes gastos por la gestión:',

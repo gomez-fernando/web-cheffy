@@ -26,6 +26,9 @@ Route::get('/products/product4', 'HomeController@product4')->name('products.prod
 
 // formularios
 Route::post('/contactForm', 'HomeController@contactForm')->name('contactForm');
+Route::post('/join', 'HomeController@joinUsForm')->name('joinUsForm');
+Route::post('/invest', 'HomeController@investInCheffy')->name('investInCheffy');
+Route::post('/contact', 'HomeController@customerServiceForm')->name('customerServiceForm');
 
 // sobre nosotros
 Route::get('/about-us', 'HomeController@aboutUs')->name('aboutUs.aboutUs');
