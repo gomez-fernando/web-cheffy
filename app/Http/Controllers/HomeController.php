@@ -34,6 +34,21 @@ class HomeController extends Controller
         return redirect('/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
     }
 
+    public function joinUsForm(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/join-us/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
+    public function investInCheffy(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/invest-in-Cheffy/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
+    public function customerServiceForm(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/customer-service/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
     public function catalog()
     {
         return view('products.catalog');

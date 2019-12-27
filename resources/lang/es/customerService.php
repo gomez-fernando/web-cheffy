@@ -9,7 +9,7 @@ return [
     */
 
     'title' => 'Atención al cliente',
-    '' => 'Atención',
+    '10' => 'En Cheffy estamos a tu servicio. Si lo deseas, puedes hacernos llegar tus consultas, sugerencias, agradecimientos, etc. Tan solo selecciona el motivo de tu contacto y escribe tu mensaje.',
     '' => 'Atención',
     '' => 'Atención',
     '' => 'Atención',
