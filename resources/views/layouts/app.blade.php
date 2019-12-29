@@ -79,7 +79,7 @@
                         <a href="{{ route('importantInfo.cookiesPolicy') }}">{{ __('lang.cookies_policy') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('importantInfo.customerService') }}">{{ __('lang.cookies_policy') }}</a>
+                        <a href="{{ route('importantInfo.customerService') }}">{{ __('lang.customer_support') }}</a>
                     </li>
                 </ul>
 

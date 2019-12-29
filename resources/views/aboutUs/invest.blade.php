@@ -27,7 +27,7 @@
             <span class="anchor" id="contact_form"></span>
             <section class="contacto row justify-content-center">
                 <div class="col-12 col-md-9 text-center">
-                    <h2 class="subtitulo"><span>{{ __('invest.30') }}</span></h2>
+                    <h2 class="subtitulo"><span>{{ __('invest.70') }}</span></h2>
                 </div>
                 <div class="col-sm-9 col-12 col-md-4 text-center">
                     {{-- // mostramos mensaje --}}
