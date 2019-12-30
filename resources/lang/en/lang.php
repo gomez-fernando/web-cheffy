@@ -26,7 +26,7 @@ return [
     'contact_form' => 'Contact',
     'our_products_description' => 'Dinners, meals, brunch, picnics, tastings, snacks and much more ... Cheffys hosts are waiting for you at your table, whether in your own city. Book one of our dining experiences and create memories that will last you forever!',
     'product1_tittle' => 'Custom Travels',
-    'product1_description_1' => 'Enfúndate los zapatos y contempla la ciudad desde otra perspectiva junto a guías y anfitriones locales. Descubre joyas culinarias escondidas, conoce las personas que están detrás de los productos y compra donde lo hacen los locales en tours inmersivos e interactivos.',
+    'product1_description_1' => 'Put your shoes on and look at the city from a different perspective with local guides and hosts. Discover hidden culinary jewels, meet the people behind the products and shop where the locals do in immersive and interactive tours.',
     'product1_description_2' => 'Put on your shoes and look at the city from another perspective with local guides and hosts. Discover hidden culinary jewels, meet the people behind the products and buy where the locals do it on immersive and interactive tours.',
      'product2_tittle' => 'Wine tasting with trying',
      'product2_description_1' => 'Travel through the Spanish countryside in a luxury car with air conditioning and English-speaking driver. You will visit a winery and learn more about the traditional local grape and its resurgence. Enjoy a delicious tasting of wines and tapas.',

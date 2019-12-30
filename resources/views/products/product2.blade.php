@@ -22,11 +22,10 @@
             <div class="row justify-content-center">
                 <article class="col-12 col-md-6   py-1">
                     <figure class="producto">
-                        <img src="img/products/pr-2.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('img/products/pr-2.jpg') }}" class="img-fluid" alt="">
 
                     </figure>
                 </article>
-                <!-- </div> -->
             </div>
 
         </div>

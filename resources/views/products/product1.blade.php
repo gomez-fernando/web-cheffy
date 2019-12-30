@@ -23,16 +23,12 @@
             <div class="row justify-content-center">
                 <article class="col-12 col-md-6   py-1">
                     <figure class="producto">
-                        <img src="img/products/pr-1.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('img/products/pr-1.jpg') }}" class="img-fluid" alt="">
 
                     </figure>
                 </article>
                 <!-- </div> -->
             </div>
-            <article class="col-12 text-center">
-                <p>{{ __('lang.product1_description_2') }}</p>
-            </article>
-
         </div>
     </main>
 
