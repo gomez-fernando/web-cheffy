@@ -8,13 +8,13 @@ return [
     |
     */
 
-    'title' => 'Política de privacidad',
-    '10' => 'Introducción',
-    '20' => 'Tourify, S.A., con domicilio social en Paseo Marítimo, 8, 29602 Marbella (España), e-mail: info@tourify.es, teléfono 901 122 122, NIF A-28229813, inscrita en el Registro Mercantil de Marbella (Tomo 896, Folio 1, Hoja M-11385, inscripción 23º), es titular del dominio en Internet: ',
-    '30' => 'y responsable del tratamiento de los datos de carácter personal suministrados por los usuarios a través de este sitio web.',
-    '40' => 'En Cheffy, al igual que todas las empresas de Tourify S.L., nos comprometemos a asegurar que su información personal se encuentre protegida y no se utilice de forma indebida.',
-    '50' => 'En este documento explicamos quién es el responsable de tratamiento, con qué finalidad se va a tratar su información personal, la legitimación para el tratamiento, cómo la recabamos, por qué la recabamos, cómo la utilizamos, los derechos que le asisten y también se explican los procesos que hemos dispuesto para proteger su privacidad.',
-    '60' => 'Al facilitarnos su información personal y utilizar nuestros sitios web, entendemos que ha leído y comprendido los términos relacionados con la información de protección de datos de carácter personal que se exponen. En Tourify S.L. y concretamente esta empresa Cheffy asumimos la responsabilidad de cumplir con la legislación vigente en materia de protección de datos nacional y europea, y tenemos el objetivo de tratar sus datos de manera lícita, leal y transparente.',
+    'title' => 'Privacy policy',
+    '10' => 'Introduction',
+    '20' => 'Tourify, S.A., with registered office in Paseo Marítimo, 8, 29602 Marbella (Spain), e-mail: info@tourify.es, telephone 901 122, NIF A-28229813, registered in the Marbella Commercial Register (Volume 896, Folio 1, Sheet M-11385, registration 23º), is the owner of the Internet domain:',
+    '30' => 'and responsible for the processing of personal data supplied by users through this website.',
+    '40' => 'At Cheffy, like all companies at Tourify S.L., we are committed to ensuring that your personal information is protected and not misused.',
+    '50' => 'In this document we explain who is responsible for processing, for what purpose your personal information will be processed, the legitimacy for processing, how we collect it, why we collect it, how we use it, the rights you have and also explain the processes we have put in place to protect your privacy.',
+    '60' => 'By providing us with your personal information and using our websites, we understand that you have read and understood the terms related to the personal data protection information set out above. In Tourify S.L. and specifically this company Cheffy we assume the responsibility to comply with the legislation in force regarding the protection of national and European data, and we have the objective of processing your data in a lawful manner, loyal and transparent.',
     '' => 'Atención',
     '' => 'Atención',
     '' => 'Atención',
