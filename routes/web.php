@@ -26,6 +26,18 @@ Route::get('/products/product4', 'HomeController@product4')->name('products.prod
 
 // formularios
 Route::post('/contactForm', 'HomeController@contactForm')->name('contactForm');
+Route::post('/join', 'HomeController@joinUsForm')->name('joinUsForm');
+Route::post('/invest', 'HomeController@investInCheffy')->name('investInCheffy');
+Route::post('/contact', 'HomeController@customerServiceForm')->name('customerServiceForm');
+
+// sobre nosotros
+Route::get('/about-us', 'HomeController@aboutUs')->name('aboutUs.aboutUs');
+Route::get('/join-us', 'HomeController@workWithUs')->name('aboutUs.workWithUs');
+Route::get('/invest-in-Cheffy', 'HomeController@invest')->name('aboutUs.invest');
 
 // avisos legales
 Route::get('/general-conditions', 'HomeController@generalConditions')->name('importantInfo.generalConditions');
+Route::get('/privacy-policy', 'HomeController@privacyPolicy')->name('importantInfo.privacyPolicy');
+Route::get('/frequent-questions', 'HomeController@frequentQuestions')->name('importantInfo.frequentQuestions');
+Route::get('/cookies-policy', 'HomeController@cookiesPolicy')->name('importantInfo.cookiesPolicy');
+Route::get('/customer-service', 'HomeController@customerService')->name('importantInfo.customerService');

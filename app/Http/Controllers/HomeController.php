@@ -25,11 +25,28 @@ class HomeController extends Controller
     public function welcome()
     {
         return view('welcome');
+
+
     }
 
     public function contactForm(){
         // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
         return redirect('/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
+    public function joinUsForm(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/join-us/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
+    public function investInCheffy(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/invest-in-Cheffy/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+    }
+
+    public function customerServiceForm(){
+        // return redirect()->back()->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
+        return redirect('/customer-service/#contact_form')->with(['message' => 'Gracias por contactarnos, nuestro equipo atenderá tu consulta inmediatamente']);
     }
 
     public function catalog()
@@ -57,8 +74,45 @@ class HomeController extends Controller
         return view('products.product4');
     }
 
+    public function aboutUs()
+    {
+        return view('aboutUs.aboutUs');
+    }
+
+    public function invest()
+    {
+        return view('aboutUs.invest');
+    }
+
+    public function workWithUs()
+    {
+        return view('aboutUs.workWithUs');
+    }
+
     public function generalConditions()
     {
         return view('importantInfo.generalConditions');
     }
+
+    public function privacyPolicy()
+    {
+        return view('importantInfo.privacyPolicy');
+    }
+
+    public function frequentQuestions()
+    {
+        return view('importantInfo.frequentQuestions');
+    }
+
+    public function cookiesPolicy()
+    {
+        return view('importantInfo.cookiesPolicy');
+    }
+
+    public function customerService()
+    {
+        return view('importantInfo.customerService');
+    }
+
+
 }

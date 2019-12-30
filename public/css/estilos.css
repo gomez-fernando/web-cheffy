@@ -22,10 +22,10 @@ p {
 }
 
 span.anchor {
-	/* margin-top: -100px; /* height of nav, in this case 54px */ */
+	/* margin-top: -100px; /* height of nav, in this case 54px */
     margin-top: -30px; /* height of nav, in this case 54px */
     display: block;
-		/* height: 100px; /* height of nav, in this case 54px */ */
+		/* height: 100px; /* height of nav, in this case 54px */
     height: 60px; /* height of nav, in this case 54px */
     visibility: hidden;
     position: relative;
@@ -37,17 +37,15 @@ span.anchor {
 .contenido-header {
 	width: 100%;
 	height: 100vh;
-	background-image: url(../img/bg-fish.jpg);
+	background-image: url(../img/bg-portada.png);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-.contenido-header .fondo {
-	width: 0%;
-	height: 100%;
-	max-width: 100%;
-	background-image: url(../img/bg-top.png);
+#logo-cheffy {
+    padding-top: 168px;
+    margin-left: 380px;
 }
 
 .contenido-header .texto {
@@ -261,31 +259,32 @@ span.anchor {
 /* ------------------------- */
 /* Separador */
 /* ------------------------- */
-.separador {
-	width: 100%;
-	height: 250px;
-	background-image: url('../img/bg-dish.jpg');
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	margin-bottom: 60px;
-}
+/*.separador {*/
+/*	width: 100%;*/
+/*	height: 250px;*/
+/*	background-image: url('../img/bg-dish.jpg');*/
+/*	background-position: center;*/
+/*	background-size: cover;*/
+/*	background-attachment: fixed;*/
+/*	margin-bottom: 60px;*/
+/*}*/
 
-.separador p {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 24px;
-	font-family: 'Noto Serif', serif;
-	padding: 10px;
-}
+/*.separador p {*/
+/*	height: 100%;*/
+/*	width: 100%;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	justify-content: center;*/
+/*	font-size: 24px;*/
+/*	font-family: 'Noto Serif', serif;*/
+/*	padding: 10px;*/
+/*}*/
 
 /*-------------------------------*/
 /*Carousel*/
 /*-------------------------------*/
 #carousel{
+    /*z-index: -1 ;*/
     border-top: 1px solid rgb(245, 79, 19);
     border-bottom: 1px solid rgb(245, 79, 19);
 
@@ -346,9 +345,34 @@ span.anchor {
 	transform: scale(1.2);
 }
 
+.info-text{
+    font-size: 1rem !important;
+    line-height: 120%;
+}
+
+
+.in-page-cheffy-logo{
+    width: 400px;
+}
+
 /* -------------------------
 footer
 ------------------------- */
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: orangered;
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 35px;
+    transition: background 0.5s;
+    z-index: 99;
+}
+
 footer{
     color: white;
 }
@@ -372,6 +396,12 @@ footer a:visited{
 /* ------------------------- */
 /* Mediaqueries */
 /* ------------------------- */
+@media screen and (max-width: 1199px){
+    .productos .producto .overlay-texto {
+        font-size: 14px;
+    }
+
+}
 @media screen and (max-width: 992px) {
 	p {
 		font-size: 18px;
@@ -390,12 +420,10 @@ footer a:visited{
 		font-size: 30px;
 	}
 
-}
+    /*.info-text{*/
+    /*    font-size: 11px;*/
+    /*}*/
 
-@media screen and (max-width: 1199px){
-	.productos .producto .overlay-texto {
-		font-size: 14px;
-	}
 }
 
 @media screen and (max-width: 991px){
@@ -408,6 +436,15 @@ footer a:visited{
 	.productos .producto .overlay-texto {
 		font-size: 14px;
 	}
+
+    .contenido-header {
+        /*width: 100%;*/
+        /*height: 100vh;*/
+        background-image: url(../img/bg-portada2.png);
+        /*background-position: center;*/
+        /*background-size: cover;*/
+        /*background-attachment: fixed;*/
+    }
 }
 
 @media screen and (max-width: 495px){

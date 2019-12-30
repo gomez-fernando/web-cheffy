@@ -10,19 +10,19 @@
                 <a class="nav-link" href="{{ route('welcome') }}">{{ __('lang.home') }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#services">{{ __('lang.services') }}</a>
+                <a class="nav-link" href="{{ $_ENV['APP_URL'] }}/#services">{{ __('lang.services') }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact_form">{{ __('lang.contact') }}</a>
+                <a class="nav-link" href="{{ $_ENV['APP_URL'] }}/#contact_form">{{ __('lang.contact') }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#where_are_we">{{ __('lang.where_are_we') }}</a>
+                <a class="nav-link" href="{{ $_ENV['APP_URL'] }}/#where_are_we">{{ __('lang.where_are_we') }}</a>
             </li>
             <li class="nav-item">
-                <a href="locale/en" class="nav-link"><img src="{{ asset('img/icons/uk_flag.png') }}" alt=""></a>
+                <a href="{{ $_ENV['APP_URL'] }}/locale/en" class="nav-link"><img src="{{ asset('img/icons/uk_flag.png') }}" alt=""></a>
             </li>
             <li class="nav-item">
-                <a href="locale/es" class="nav-link"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
+                <a href="{{ $_ENV['APP_URL'] }}/locale/es" class="nav-link"><img src="{{ asset('img/icons/spain_flag.png') }}" alt=""></a>
             </li>
         </ul>
     </div>
