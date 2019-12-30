@@ -119,6 +119,11 @@
             </a>
         </li>
         <li class="list-inline-item">
+            <a class="btn-floating btn-fb mx-1" href="https://www.youtube.com/watch?v=i_GjIButRSs&feature=youtu.be" target="_blank">
+                <img src="{{ asset('img/icons/youtube-3-96.png') }}" alt="">
+            </a>
+        </li>
+        <li class="list-inline-item">
             <a class="btn-floating btn-tw mx-1" href="https://github.com/FernandoDavidGomezOrtega/web-cheffy" target="_blank"><img src="{{ asset('img/icons/github-8-96.png') }}" alt="">
             </a>
         </li>
