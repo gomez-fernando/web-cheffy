@@ -99,6 +99,8 @@ span.anchor {
 
 .navbar-light .navbar-nav .nav-link{
     color: var(--gray-light) !important;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* ------------------------- */
@@ -390,6 +392,26 @@ footer a:visited{
     text-decoration: none;
     color: white;
 }
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--oscuro);
+    margin: 3rem 0 0 0;
+    text-align: center;
+    padding: var(--padding);
+  }
+  .copyright a {
+    color: var(--claro);
+    text-decoration: none;
+    transition: 0.3s ease all;
+  }
+  .copyright a:hover {
+      text-decoration: none;
+    color: yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: scale(1.1);
+  }
 
 
 
@@ -463,4 +485,12 @@ footer a:visited{
 	.productos .producto .overlay-texto {
 		font-size: 8px;
 	}
+}
+
+.list-unstyled li a{
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+.list-unstyled li a:hover{
+    margin-left: 10px;
 }

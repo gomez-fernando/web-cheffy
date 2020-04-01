@@ -109,18 +109,9 @@
 
     <!-- Redes sociales -->
     <ul class="list-unstyled list-inline text-center">
+        <!-- color de lo iconos #fe4500 -->
         <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1" href="https://sites.google.com/fp.uoc.edu/grupo-tourify/presentaci%C3%B3n-del-proyecto" target="_blank"><img src="{{ asset('img/icons/google-plus-3-96.png') }}" alt="">
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1" href="https://www.youtube.com/watch?v=-Fyn83okjg8&feature=youtu.be" target="_blank">
-                <img src="{{ asset('img/icons/youtube-3-96.png') }}" alt="">
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1" href="https://www.youtube.com/watch?v=i_GjIButRSs&feature=youtu.be" target="_blank">
-                <img src="{{ asset('img/icons/youtube-3-96.png') }}" alt="">
+            <a class="btn-floating btn-gplus mx-1" href="https://www.linkedin.com/in/gomez-fernando/" target="_blank"><img src="{{ asset('img/icons/linkedin.png') }}" alt="">
             </a>
         </li>
         <li class="list-inline-item">
@@ -131,8 +122,13 @@
     <!-- Redes sociales -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright: Grupo Tourify - UOC
-    </div>
+    <p class="copyright">
+        <a
+          href="https://gomez-fernando.github.io/portfolio/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Developed with &#x1F49A; by Fernando Gómez</a>
+      </p>
     <!-- Copyright -->
 
     <!-- Back to top button -->
@@ -142,7 +138,7 @@
 
 <!-- Required JavaScript Libraries -->
 <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('lib/easing/easing.js') }}"></script>
+<!-- <script src="{{ asset('lib/easing/easing.js') }}"></script> -->
 <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
 
 <!-- principales funciones javascript de la aplicación -->
